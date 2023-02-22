@@ -1,8 +1,8 @@
-import { Box, Stack } from '@mui/material'
-import React from 'react'
-import { ChannelCard, VideoCard } from './'
+import { Box, Stack } from "@mui/material";
+import React from "react";
+import { ChannelCard, VideoCard } from "./";
 
-const Videos = ({videos}) => {
+const Videos = ({ videos }) => {
   return (
     <div>
       <Stack direction="row" flexWrap="wrap" justifyContent="start" gap={2}>
@@ -14,7 +14,7 @@ const Videos = ({videos}) => {
         ))}
       </Stack>
     </div>
-  )
-}
+  );
+};
 
-export default Videos
+export default Videos;
